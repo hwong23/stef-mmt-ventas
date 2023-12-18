@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-12-18" />
   <meta name="citation_publication_date" content="2023-12-18" />
   <meta property="article:published_time" content="2023-12-18" />
-  <meta name="dc.modified" content="2023-12-18T16:40:54+00:00" />
-  <meta property="article:modified_time" content="2023-12-18T16:40:54+00:00" />
+  <meta name="dc.modified" content="2023-12-18T17:06:42+00:00" />
+  <meta property="article:modified_time" content="2023-12-18T17:06:42+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-mmt-ventas/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-mmt-ventas/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-mmt-ventas/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-ventas/v/56998c560fd6aec6e459eea3d0ace49acda9bd5d/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-ventas/v/56998c560fd6aec6e459eea3d0ace49acda9bd5d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-ventas/v/56998c560fd6aec6e459eea3d0ace49acda9bd5d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-ventas/v/170bc7b3d8bfa5f4e273ee85d9780e39466738cd/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-ventas/v/170bc7b3d8bfa5f4e273ee85d9780e39466738cd/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-ventas/v/170bc7b3d8bfa5f4e273ee85d9780e39466738cd/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -54,7 +54,7 @@ manubot-clear-requests-cache: false
 
 ---
 title: Documento de Arquitectura Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva, STEF - Coomeva
-subtitle: Mi Mutual Coomeva - Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva
+subtitle: Mi Mutual Cotización y Ventas  - Mi Mutual Coomeva
 geometry:
   - top=1in
   - bottom=1in
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.56998c5 de 18 Dec 2023
+| **Versión** del producto 1.170bc7b de 18 Dec 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-mmt-ventas/v/56998c560fd6aec6e459eea3d0ace49acda9bd5d/))
+([Web](https://hwong23.github.io/stef-mmt-ventas/v/170bc7b3d8bfa5f4e273ee85d9780e39466738cd/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@56998c5](http://stefanini.sharepoint.com)
+[Sharepoint STEF@170bc7b](http://stefanini.sharepoint.com)
 del December 18, 2023.
 </em></small>
 
@@ -143,6 +143,8 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Autor          |                            |
 | Fuente         |                            |
 | **Versión**    |                            |
+| 1.170bc7b | 2023-12-18. initdoc2 |
+| 1.4aeb7fe | 2023-12-18. sh |
 | 1.56998c5 | 2023-12-18. initdoc |
 | 1.dd52569 | 2023-12-18. init2 |
 | 1.6ca7f15 | 2023-12-18. Brand repo to hwong23/stef-mmt-ventas |
@@ -151,8 +153,6 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | 1.8c1a803 | 2023-08-14. Improve DOCX environment variable documentation |
 | 1.299abce | 2023-07-31. CI: install environment using mamba |
 | 1.f9fff34 | 2023-07-17. Correct setup script typos |
-| 1.72a96c9 | 2023-04-23. Set write permissions in AI workflow |
-| 1.f3e0520 | 2023-03-12. Add librsvg as dependency |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -178,7 +178,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 # Introducción
 
 ## Propósito
-Este documento tiene como propósito presentar la arquitectura del aplicativo Mi Mutual para STEF - Coomeva. según los requerimientos definidos durante la etapa de preventa y luego detallados en las historias de usuario.
+Este documento tiene como propósito presentar la arquitectura del aplicativo Mi Mutual Cotización y Ventas  para STEF - Coomeva. según los requerimientos definidos durante la etapa de preventa y luego detallados en las historias de usuario.
 
 La arquitectura será una guía para que el diseño y la implementación de los componentes que conforman la solución sean cobijados bajo lineamientos y premisas bien definidos, permitiendo a los elementos del sistema interactuar entre sí de forma coherente. La arquitectura será tomada como un diseño estratégico que establece restricciones globales para el diseño, define un marco inicial de trabajo para la implementación de los requerimientos funcionales y no funcionales.
 
@@ -194,9 +194,9 @@ Uno de los principales propósitos de este documento es hacer una representació
 
 
 # Restricciones Principales de Arquitectura
-Informamos de las restricciones que hacen parte de Mi Mutual, y por tanto, a considerar en el ejercicio de arquitectura del presente proyecto.
+Informamos de las restricciones que hacen parte de Mi Mutual Cotización y Ventas , y por tanto, a considerar en el ejercicio de arquitectura del presente proyecto.
 
-Lista de restricciones de Mi Mutual, 2023.
+Lista de restricciones de Mi Mutual Cotización y Ventas , 2023.
 
 1. Disponibilidad. Se requiere que el sistema esté disponible 7x24, el servicio prestado al cliente no se limita a horarios de oficina pues las compras pueden darse en cualquier momento
 1. Escalabilidad. Se requiere que el sistema pueda llegar a atender hasta 1.000 clientes, para esto se requiere que el sistema se pueda extender horizontalmente de tal manera que pueda tener instalado en varios servidores para atender esta cantidad de usuarios. Todas las aplicaciones desarrolladas podrán ser escaladas horizontalmente para atender la demanda relacionada con el crecimiento de la empresa.
@@ -221,13 +221,13 @@ Otras restricciones a detallar.
 
 
 # Requisitos de Arquitectura (no funcional)
-Entendemos como requisitos de arquitectura aquellos requerimientos no visibles pero estructurales, medibles, y que impactan al funcionamiento, desarrollo y mantenimiento de la solución Mi Mutual, objeto de este proyecto, Mi Mutual Coomeva.
+Entendemos como requisitos de arquitectura aquellos requerimientos no visibles pero estructurales, medibles, y que impactan al funcionamiento, desarrollo y mantenimiento de la solución Mi Mutual Cotización y Ventas , objeto de este proyecto, Mi Mutual Coomeva.
  
 Definiremos estos requisitos de la solución a tener en cuenta al momento del desarrollo.
 
 ## Requerimientos generales
 1. **Parametrización**. Crear desarrollos parametrizables necesarios para permitir la administración de la información de uso general.
-1. **Interoperabilidad**. Crear desarrollos de Mi Mutual interoperables con otros sistemas de información de la entidad según requerimientos de los procesos.
+1. **Interoperabilidad**. Crear desarrollos de Mi Mutual Cotización y Ventas  interoperables con otros sistemas de información de la entidad según requerimientos de los procesos.
 1. **Diseño**. Los desarrollos complementarios deben responder a los criterios de bajo acoplamiento y alta cohesión.
 1. **Reglas de negocio**. Las soluciones deben disponer de todas las validaciones y controles que garanticen la calidad, seguridad y unicidad de la información.
 1. Para los casos que aplique, la solución debe contar con una integración con el servicio de correo de la Entidad.
@@ -239,36 +239,36 @@ Definiremos estos requisitos de la solución a tener en cuenta al momento del de
 
 ## Requisitos Particulares de Arquitectura (no funcional) 
 
-### Consistencia Mi Mutual (lógica)
+### Consistencia Mi Mutual Cotización y Ventas  (lógica)
 
-| Requisito      | Extensibilidad Mi Mutual |
+| Requisito      | Extensibilidad Mi Mutual Cotización y Ventas  |
 |----------------|--------------------|
-| Descripción | Unifica las entidades de negocio Coomeva, entre las que se incluyen a Cotización, Venta, Vinculación, en artefactos reutilizables. Distinto de que estas entidades (y su lógica de negocio) estén dispersos entre los sistemas del Mi Mutual, estarán concentradas en un único artefacto correspondiente. |
-| Calidad sistémica | La consistencia persigue que el resultado de la lógica de negocio de las entidades de Mi Mutual sea la misma entre los módulos del Mi Mutual. Esto redunda a mantenibilidad y gestión: tiende a tener un solo punto de cambio y dificulta la transferencia de dependencias implícitas a otros procesos. |
+| Descripción | Unifica las entidades de negocio Coomeva, entre las que se incluyen a Cotización, Venta, Vinculación, en artefactos reutilizables. Distinto de que estas entidades (y su lógica de negocio) estén dispersos entre los sistemas del Mi Mutual Cotización y Ventas , estarán concentradas en un único artefacto correspondiente. |
+| Calidad sistémica | La consistencia persigue que el resultado de la lógica de negocio de las entidades de Mi Mutual sea la misma entre los módulos del Mi Mutual Cotización y Ventas . Esto redunda a mantenibilidad y gestión: tiende a tener un solo punto de cambio y dificulta la transferencia de dependencias implícitas a otros procesos. |
 
-Table: Requisito no. 1, Desarrollo Mi Mutual, Consistencia. {#tbl:requisito1-id}
+Table: Requisito no. 1, Desarrollo Mi Mutual Cotización y Ventas , Consistencia. {#tbl:requisito1-id}
 
 <br>
 
-### Mantenibilidad Mi Mutual
+### Mantenibilidad Mi Mutual Cotización y Ventas 
 
-| Requisito      | Mantenibilidad Mi Mutual |
+| Requisito      | Mantenibilidad Mi Mutual Cotización y Ventas  |
 |----------------|--------------------|
-| Descripción | Evitar las dependencias transitivas de los módulos misionales del Mi Mutual a componentes y sistemas de terceros o submódulos no misionales.  |
-| Calidad sistémica | La mantenibilidad por control de dependencias que optimiza el diseño Desarrollo Mi Mutual está dada por el control de cambios no programados sobre los componentes misionales del Mi Mutual (corrupción de componentes). Ver Patrón de Diseño Desarrollo Mi Mutual, más adelante en el documento. |
+| Descripción | Evitar las dependencias transitivas de los módulos misionales del Mi Mutual Cotización y Ventas  a componentes y sistemas de terceros o submódulos no misionales.  |
+| Calidad sistémica | La mantenibilidad por control de dependencias que optimiza el diseño Desarrollo Mi Mutual Cotización y Ventas  está dada por el control de cambios no programados sobre los componentes misionales del Mi Mutual Cotización y Ventas  (corrupción de componentes). Ver Patrón de Diseño Desarrollo Mi Mutual Cotización y Ventas , más adelante en el documento. |
 
-Table: Requisito no. 2, Mantenibilidad Mi Mutual. {#tbl:requisito2-id}
+Table: Requisito no. 2, Mantenibilidad Mi Mutual Cotización y Ventas . {#tbl:requisito2-id}
 
 <br>
 
-### Extensibilidad Mi Mutual
+### Extensibilidad Mi Mutual Cotización y Ventas 
 
-| Requisito      | Extensibilidad Mi Mutual |
+| Requisito      | Extensibilidad Mi Mutual Cotización y Ventas  |
 |----------------|--------------------|
-| Descripción | Concentración de los componentes de negocio, misionales, del Mi Mutual protegidos de cambios provenientes de otros sistemas. Ver Patrón de Diseño Desarrollo Mi Mutual, más adelante en el documento. |
-| Calidad sistémica | La extensibilidad que optimiza el diseño Desarrollo Mi Mutual está dada por el intercambio de submódulos no misionales, como el gestor documental, sin afectación de los componentes misionales que este diseño protege. |
+| Descripción | Concentración de los componentes de negocio, misionales, del Mi Mutual Cotización y Ventas  protegidos de cambios provenientes de otros sistemas. Ver Patrón de Diseño Desarrollo Mi Mutual Cotización y Ventas , más adelante en el documento. |
+| Calidad sistémica | La extensibilidad que optimiza el diseño Desarrollo Mi Mutual Cotización y Ventas  está dada por el intercambio de submódulos no misionales, como el gestor documental, sin afectación de los componentes misionales que este diseño protege. |
 
-Table: Requisito no. 3, Desarrollo Mi Mutual, Flexibilidad. {#tbl:requisito3-id}
+Table: Requisito no. 3, Desarrollo Mi Mutual Cotización y Ventas , Flexibilidad. {#tbl:requisito3-id}
 
 <div style="page-break-before: always;"></div>
 \newpage
@@ -784,7 +784,7 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 
 # Referencias {.page_break_before}
 <!-- Explicitly insert bibliography here -->
-<div id="refs">@eservices1-22 @eservices3-22 @eservices4-22 @eservices5-23 @eservices6-12 @eservices7-23 @bptrends07
+<div id="refs">@eservices1-22 @eservices3-22 @eservices4-22 @eservices5-22
 </div>
 
 
