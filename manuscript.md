@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-12-18" />
   <meta name="citation_publication_date" content="2023-12-18" />
   <meta property="article:published_time" content="2023-12-18" />
-  <meta name="dc.modified" content="2023-12-18T17:06:42+00:00" />
-  <meta property="article:modified_time" content="2023-12-18T17:06:42+00:00" />
+  <meta name="dc.modified" content="2023-12-18T21:23:58+00:00" />
+  <meta property="article:modified_time" content="2023-12-18T21:23:58+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-mmt-ventas/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-mmt-ventas/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-mmt-ventas/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-ventas/v/170bc7b3d8bfa5f4e273ee85d9780e39466738cd/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-ventas/v/170bc7b3d8bfa5f4e273ee85d9780e39466738cd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-ventas/v/170bc7b3d8bfa5f4e273ee85d9780e39466738cd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-ventas/v/94cc7c8dfc3570aea7a7d86d0d5aac3eabed49b4/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-ventas/v/94cc7c8dfc3570aea7a7d86d0d5aac3eabed49b4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-ventas/v/94cc7c8dfc3570aea7a7d86d0d5aac3eabed49b4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.170bc7b de 18 Dec 2023
+| **Versión** del producto 1.94cc7c8 de 18 Dec 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-mmt-ventas/v/170bc7b3d8bfa5f4e273ee85d9780e39466738cd/))
+([Web](https://hwong23.github.io/stef-mmt-ventas/v/94cc7c8dfc3570aea7a7d86d0d5aac3eabed49b4/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@170bc7b](http://stefanini.sharepoint.com)
+[Sharepoint STEF@94cc7c8](http://stefanini.sharepoint.com)
 del December 18, 2023.
 </em></small>
 
@@ -143,6 +143,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Autor          |                            |
 | Fuente         |                            |
 | **Versión**    |                            |
+| 1.94cc7c8 | 2023-12-18. ventas-doc |
 | 1.170bc7b | 2023-12-18. initdoc2 |
 | 1.4aeb7fe | 2023-12-18. sh |
 | 1.56998c5 | 2023-12-18. initdoc |
@@ -152,7 +153,6 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | 1.48c7d75 | 2023-09-27. environment: upgrade manubot |
 | 1.8c1a803 | 2023-08-14. Improve DOCX environment variable documentation |
 | 1.299abce | 2023-07-31. CI: install environment using mamba |
-| 1.f9fff34 | 2023-07-17. Correct setup script typos |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -276,30 +276,30 @@ Table: Requisito no. 3, Desarrollo Mi Mutual Cotización y Ventas , Flexibilidad
 
 # Doc. 5a. Ventas
 * [Ventas Mi Mutual Web](#ventas-mi-mutual-web)
-	* [Ventas. 1. Contexto (copy)](#ventas.-1.-contexto-copy)
-	* [Ventas. 2. Contenedores (copy)](#ventas.-2.-contenedores-copy)
-	* [Ventas. 4. Aplicación (copy)](#ventas.-4.-aplicación-copy)
-	* [Ventas. 4a. Aplicación. Servicios (copy)](#ventas.-4a.-aplicación.-servicios-copy)
-	* [Ventas. 4b. Dependencias (copy)](#ventas.-4b.-dependencias-copy)
-	* [Ventas. 5. Físico. Despliegue (copy)](#ventas.-5.-físico.-despliegue-copy)
-	* [Ventas. 7a. Modelo Negocio (copy)](#ventas.-7a.-modelo-negocio-copy)
-	* [Ventas. 7. Datos. Negocio (copy)](#ventas.-7.-datos.-negocio-copy)
+	* [Ventas. 1. Contexto](#ventas.-1.-contexto)
+	* [Ventas. 2. Contenedores](#ventas.-2.-contenedores)
+	* [Ventas. 4. Aplicación](#ventas.-4.-aplicación)
+	* [Ventas. 4a. Aplicación. Servicios](#ventas.-4a.-aplicación.-servicios)
+	* [Ventas. 4b. Dependencias](#ventas.-4b.-dependencias)
+	* [Ventas. 5. Físico. Despliegue](#ventas.-5.-físico.-despliegue)
+	* [Ventas. 7a. Modelo Negocio](#ventas.-7a.-modelo-negocio)
+	* [Ventas. 7. Datos. Negocio](#ventas.-7.-datos.-negocio)
 
 
 <div style="page-break-before: always;"></div>
 \newpage
 
 # Ventas Mi Mutual Web
-## Ventas. 1. Contexto (copy)
-![Vista. Ventas. 1. Contexto (copy)](images/Ventas.1.Contexto(copy).png){#fig:Ventas.1.Contexto(copy) width=}
+## Ventas. 1. Contexto
+![Vista. Ventas. 1. Contexto](images/Ventas.1.Contexto.png){#fig:Ventas.1.Contexto width=}
 
-### Contexto Mi Mutual Web
-La aplicación Cotizador Web hace parte de los módulos de interfaz web de Mi Mutual Central, representado por API Mi Mutual en el diagrama. Realizar cotizaciones de los planes de protección luego de la vinculación del asociado.
+### Contexto Cotización y Ventas Mi Mutual Web
+La aplicación Ventas es parte Mi Mutual Web, que contiene a los módulos de interfaz web de Mi Mutual Central, que está representado por _app: Cotización y Ventas_ en el diagrama. Realizar (...)
 
-La estructura por módulos permite realizar aplicaciones escalables y robustas ya que permite organizar las partes de la aplicación, la organización en bloques, extender la aplicación con funcionalidades de libreras externas, proporcionar un entorno de resolución de plantillas y además permite especificar la forma de la carga de cada uno de los componentes y servicios que conforman un módulo.
+En el contexto se aprecia a la aplicación de Cotización y Ventas junto a los módulos que permite realizar la composición de funcionalidades y organización de las partes a favor de extender la aplicación(es) con funcionalidades y los flujos de trabajo.
 
-### Módulos Externos
-Los módulos externos son todas y cada una de las herramientas que se utilizan para complementar con funcionalidades ya desarrolladas y tomadas desde un repositorio externo (NPM).
+### Módulos Externos (adicionales al contexto)
+Los módulos externos son las herramientas que se utilizan para complementar con funcionalidades ya desarrolladas y provenientes de un repositorio externo (NPM).
 
 * TranslateModule: Manejo de internacionalización. Documentación: https://github.com/ngx-translate/core
 * NgxMaskModule: Manejo de máscaras de input text. Documentación: https://github.com/JsDaddy/ngx-mask
@@ -316,7 +316,7 @@ Los módulos externos son todas y cada una de las herramientas que se utilizan p
 
 <br>
 
-### Servicios Transversales 
+### Servicios Transversales (adicionales al contexto)
 
 * AuthGuard: Validación de existencia de autenticación
 * DeaciveGuard: Validación de salida de un componente
@@ -332,31 +332,34 @@ Los módulos externos son todas y cada una de las herramientas que se utilizan p
 ### Catálogo de Elementos
 | Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
-|**Controlador Mi Mutual**|application-component|Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos.|*modulo:* mimutual<br>|
+|**Flujo Trabajo: flowable**|application-component|Contiene todas las funcionalidades relacionadas con el motor de BPM Flowable, como gestión de tareas, instancias de nuevas procesos y asignación de tareas.<br>|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
+|**Integración**|application-component|Contiene todas las funcionalidades relacionadas con integraciones a otros servicios y otras bases de datos.|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
+|**Operación**|application-component|||
+|**Procesos negocio**|application-component|Contiene todas las funcionalidades relacionadas con los flujos de JBPM, actualmente se hace solo para acceso a datos de la base de datos de JBPM.|*modulo:* mimutual<br>|
+|**Reglas negocio**|application-component|Contiene todas las funcionalidades relacionadas con la validación de reglas usadas en otros microservicios.|*modulo:* mimutual<br>|
+|**SISPRO**|application-component|Contiene todas las funcionalidades relacionadas con la autenticación y autorización al sistema Mi mutual (Este componente se adopta a la arquitectura de microservicios de MiMutual)|*modulo:* mimutual<br>|
+|**Traductor**|application-component|||
+|**Utilidades**|application-component|Contiene todas las funcionalidades útiles y trasversales a los microservicios, como envío de correos, generación de archivos XSLX, PDF (Jasper) y consulta de parámetros.|*modulo:* mimutual<br>|
+|**app: Asociados**|application-component|Contiene todas las funcionalidades relacionadas con consulta y creación de asociados y beneficiarios.|*modulo:* mimutual<br>|
+|**app: Auditoria**|application-component|Contiene todas las funcionalidades relacionadas con el almacenamiento de la auditoria de las peticiones de la aplicación.|*modulo:* mimutual<br>|
+|**app: Cotización y Ventas**|application-component|||
 |**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
-|**(web) Cotizador**|application-function|Grupo de páginas web del cotizador.<br>|*modulo:* cotizador<br>|
-|**(web) Proveedores**|application-function|Grupo de páginas web del cotizador.<br>|*modulo:* cotizador<br>|
-|**(web) Reportes**|application-function|Grupo de páginas web del cotizador.<br>|*modulo:* cotizador<br>|
-|**(web) admin Páginas**|application-function|Grupo de páginas web del cotizador.<br>|*modulo:* cotizador<br>|
-|**Aplicativo**|application-function|Grupo de funcionalidades y entidades (datos) específicas del Cotizador Web.<br>|*modulo:* cotizador<br>|
-|**Asociados**|application-function|Grupo de funcionalidad (servicios) de Asociados del Cotizador Web.<br>|*modulo:* cotizador<br>|
-|**Cliente**|application-function|Grupo de funcionalidad (servicios) de Asociados del Cotizador Web.|*modulo:* cotizador<br>|
-|**Configuracn.**|application-function|Grupo de funcionalidad (servicios) de Planes de Configuración del Cotizador Web.|*modulo:* cotizador<br>|
-|**Cotizaciones**|application-function|Grupo de funcionalidad (servicios) de Cotización de la aplicación.|*modulo:* cotizador<br>|
-|**Interfaz gráfica**|application-function|Módulo interno (carpeta de proyecto) contenedor de las plantiilas de páginas web del Cotizador.<br>|*modulo:* cotizador<br>|
-|**Módulos Compartidos**|application-function|Librerías de software base que el Cotizador Web requiere. Dependencias a paquetes de software de base, distintas a los módulos de negocio, necesarios para la ejecución de tareas utilitarias del Cotizador, tales como comunicación, políticas de seguridad, especificación de objetos globales de interfaz, transporte, transformación, entre otras.<br>|*modulo:* cotizador<br>|
-|**Util**|application-function|En la Utilidades se especifican las clases que complementan una funcionalidad de un componente o servicio.<br>* FormValidate: Clase que implementa un disparador de validación de todos los campos de un formulario.<br>* CustomValidators: Creación de validaciones de campos.<br><br><br>|*modulo:* cotizador<br>|
-|**admin Servicios**|application-function||*modulo:* cotizador<br>|
-|**API Mi Mutual**|application-interface||*modulo:* mimutual<br>|
-|**Autenticación: authgard**|application-service|||
-|**Interceptor: errorinterceptor**|application-service|||
-|**Parametrización: typeservice**|application-service|||
-|**Sesión admin: idletimeout**|application-service|||
+|**app: Estados**|application-component|Administración de estados del portafolio.<br>||
+|**app: Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.|*modulo:* mimutual<br>|
+|**app: Mi Mutual Web**|application-component|Portal de aplicaciones Mi Mutual Central. Interfaz gráfica web (HTML) de las aplicaciones de Mi Mutual.<br>||
+|**Seguridad**|application-function|Software base. ||
+|**Configuración**|application-service|Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.<br>||
+|**Analistas**|business-role|Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes.||
+|**Asesores**|business-role|Asesores integrales||
+|**Auxiliares servicio**|business-role|Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes.||
+|**Fidelización**|business-role|Ejecutivos de Fidelización||
+|**Profundización**|business-role|Ejecutivos de Profundización||
+|**Unidad de Solidaridad y Seguros**|grouping|La Unidad de Solidaridad y Seguros cuenta con un software integrado para su core de negocio denominado SIPAS (Sistema de Previsión, Asistencia y Solidaridad)||
 
 <br>
 
-## Ventas. 2. Contenedores (copy)
-![Vista. Ventas. 2. Contenedores (copy)](images/Ventas.2.Contenedores(copy).png){#fig:Ventas.2.Contenedores(copy) width=}
+## Ventas. 2. Contenedores
+![Vista. Ventas. 2. Contenedores](images/Ventas.2.Contenedores.png){#fig:Ventas.2.Contenedores width=}
 
 ### Catálogo de Elementos
 | Nombre| Tipo| Descripción| Prop.
@@ -371,8 +374,8 @@ Los módulos externos son todas y cada una de las herramientas que se utilizan p
 
 <br>
 
-## Ventas. 4. Aplicación (copy)
-![Vista. Ventas. 4. Aplicación (copy)](images/Ventas.4.Aplicación(copy).png){#fig:Ventas.4.Aplicación(copy) width=}
+## Ventas. 4. Aplicación
+![Vista. Ventas. 4. Aplicación](images/Ventas.4.Aplicación.png){#fig:Ventas.4.Aplicación width=}
 
 La organización de la aplicación Cotizador Web Mi Mutual, como capa de presentación y servicios, plantea una estructura basada en la referencia de aplicaciones Angular 12. Las características de esta estructura (referida por Angular) está orientada al crecimiento (tamaño) de la aplicación, la escalabilidad y al rendimiento. La aplicación web Cotizador está diseñada (modulos) para manejar la carga por demanda del contenido.
 
@@ -421,8 +424,8 @@ La organización de la aplicación Cotizador Web Mi Mutual, como capa de present
 
 <br>
 
-## Ventas. 4a. Aplicación. Servicios (copy)
-![Vista. Ventas. 4a. Aplicación. Servicios (copy)](images/Ventas.4a.Aplicación.Servicios(copy).png){#fig:Ventas.4a.Aplicación.Servicios(copy) width=}
+## Ventas. 4a. Aplicación. Servicios
+![Vista. Ventas. 4a. Aplicación. Servicios](images/Ventas.4a.Aplicación.Servicios.png){#fig:Ventas.4a.Aplicación.Servicios width=}
 
 Composición interna de los servivios de Mi Mutual Central, Mi Mutual Web, Cotizador Web. La vista muestra el patron de diseño con el que están implementados los servicios de la aplicación.
 
@@ -443,8 +446,8 @@ Composición interna de los servivios de Mi Mutual Central, Mi Mutual Web, Cotiz
 
 <br>
 
-## Ventas. 4b. Dependencias (copy)
-![Vista. Ventas. 4b. Dependencias (copy)](images/Ventas.4b.Dependencias(copy).png){#fig:Ventas.4b.Dependencias(copy) width=}
+## Ventas. 4b. Dependencias
+![Vista. Ventas. 4b. Dependencias](images/Ventas.4b.Dependencias.png){#fig:Ventas.4b.Dependencias width=}
 
 ### Paquetes y Dependencias Cotizador Web
 Módulos y componentes que hacen parte de la estructura de la aplicación Cotizador Web (basado en Angular 12 [^1]).
@@ -491,8 +494,8 @@ La estructura por módulos actual apunta a la escalabilidad y mantenimiento del 
 
 <br>
 
-## Ventas. 5. Físico. Despliegue (copy)
-![Vista. Ventas. 5. Físico. Despliegue (copy)](images/Ventas.5.Físico.Despliegue(copy).png){#fig:Ventas.5.Físico.Despliegue(copy) width=}
+## Ventas. 5. Físico. Despliegue
+![Vista. Ventas. 5. Físico. Despliegue](images/Ventas.5.Físico.Despliegue.png){#fig:Ventas.5.Físico.Despliegue width=}
 
 ### Especificaciones de Despliegue Cotizador Web
 Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo servidor y local (2022), librerías de desarrollo (frameworks), lenguajes, instalaciones y sus versiones.
@@ -573,8 +576,8 @@ Especificaciones de despliegue Mi Mutual, 2023, Componente Central y Cotizador W
 
 <br>
 
-## Ventas. 7a. Modelo Negocio (copy)
-![Vista. Ventas. 7a. Modelo Negocio (copy)](images/Ventas.7a.ModeloNegocio(copy).png){#fig:Ventas.7a.ModeloNegocio(copy) width=}
+## Ventas. 7a. Modelo Negocio
+![Vista. Ventas. 7a. Modelo Negocio](images/Ventas.7a.ModeloNegocio.png){#fig:Ventas.7a.ModeloNegocio width=}
 
 Modelo de negocio (lógico) de Mi Mutual, Mi Mutual Web, extensible a sus demás módulos, como el Cotizador Web y otros. El modelo de negocio Mi Mutual contiene los conceptos de negocio que se encuentran implementados en el sofware, reglas y funciones de negocio, y el modelo(s) de datos del sistema.
 
@@ -630,8 +633,8 @@ La relación entre los conceptos de negocio y el modelo de datos se encuentra en
 
 <br>
 
-## Ventas. 7. Datos. Negocio (copy)
-![Vista. Ventas. 7. Datos. Negocio (copy)](images/Ventas.7.Datos.Negocio(copy).png){#fig:Ventas.7.Datos.Negocio(copy) width=}
+## Ventas. 7. Datos. Negocio
+![Vista. Ventas. 7. Datos. Negocio](images/Ventas.7.Datos.Negocio.png){#fig:Ventas.7.Datos.Negocio width=}
 
 La relación del modelo de negocio Mi Mutual con el modelo de datos del Cotizador Web orienta la navegación en el modelo de datos en aquellas historias de usuario que impliquen a alguna de estas entidades.
 
@@ -733,7 +736,7 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 <br>
 
 
-``Generated on: Mon Dec 18 2023 11:33:29 GMT-0500 (COT)``
+``Generated on: Mon Dec 18 2023 16:20:23 GMT-0500 (COT)``
 
 # Requerimientos de Administración
 1. Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
