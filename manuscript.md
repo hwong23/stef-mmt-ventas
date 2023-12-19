@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-12-19" />
   <meta name="citation_publication_date" content="2023-12-19" />
   <meta property="article:published_time" content="2023-12-19" />
-  <meta name="dc.modified" content="2023-12-19T17:21:09+00:00" />
-  <meta property="article:modified_time" content="2023-12-19T17:21:09+00:00" />
+  <meta name="dc.modified" content="2023-12-19T17:30:16+00:00" />
+  <meta property="article:modified_time" content="2023-12-19T17:30:16+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-mmt-ventas/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-mmt-ventas/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-mmt-ventas/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-ventas/v/3c04070e97c921cb6eec096bfd1f8d2b3d5a79e1/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-ventas/v/3c04070e97c921cb6eec096bfd1f8d2b3d5a79e1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-ventas/v/3c04070e97c921cb6eec096bfd1f8d2b3d5a79e1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-ventas/v/1da75908e3e6ea533fb6a52dcfe25e955b4781c0/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-ventas/v/1da75908e3e6ea533fb6a52dcfe25e955b4781c0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-ventas/v/1da75908e3e6ea533fb6a52dcfe25e955b4781c0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.3c04070 de 19 Dec 2023
+| **Versión** del producto 1.1da7590 de 19 Dec 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-mmt-ventas/v/3c04070e97c921cb6eec096bfd1f8d2b3d5a79e1/))
+([Web](https://hwong23.github.io/stef-mmt-ventas/v/1da75908e3e6ea533fb6a52dcfe25e955b4781c0/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@3c04070](http://stefanini.sharepoint.com)
+[Sharepoint STEF@1da7590](http://stefanini.sharepoint.com)
 del December 19, 2023.
 </em></small>
 
@@ -143,6 +143,8 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Autor          |                            |
 | Fuente         |                            |
 | **Versión**    |                            |
+| 1.1da7590 | 2023-12-19. ventasdoc--titulos |
+| 1.a7b134a | 2023-12-19. build |
 | 1.3c04070 | 2023-12-19. ventasdoc--arq |
 | 1.30a4207 | 2023-12-19. ventasdoc--arq |
 | 1.94cc7c8 | 2023-12-18. ventas-doc |
@@ -151,8 +153,6 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | 1.56998c5 | 2023-12-18. initdoc |
 | 1.dd52569 | 2023-12-18. init2 |
 | 1.6ca7f15 | 2023-12-18. Brand repo to hwong23/stef-mmt-ventas |
-| 1.078af3a | 2023-12-13. ai-revision docs: section mapping & prompt types |
-| 1.48c7d75 | 2023-09-27. environment: upgrade manubot |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -274,7 +274,7 @@ Table: Requisito no. 3, Desarrollo Mi Mutual Cotización y Ventas , Flexibilidad
 \newpage
 
 
-# Doc. 5a. Ventas
+# Vista de Arquitectura Cotización y Ventas Mi Mutual
 * [Ventas Mi Mutual Web](#ventas-mi-mutual-web)
 	* [Ventas. 1. Contexto](#ventas.-1.-contexto)
 	* [Ventas. 2. Contenedores](#ventas.-2.-contenedores)
@@ -334,32 +334,19 @@ Los módulos externos son las herramientas que se utilizan para complementar con
 |:--------|:--------|:--------|:--------|
 |**Flujo Trabajo: flowable**|application-component|Contiene todas las funcionalidades relacionadas con el motor de BPM Flowable, como gestión de tareas, instancias de nuevas procesos y asignación de tareas.<br>|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
 |**Integración**|application-component|Contiene todas las funcionalidades relacionadas con integraciones a otros servicios y otras bases de datos.|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
-<<<<<<< HEAD
 |**Procesos negocio**|application-component|Contiene todas las funcionalidades relacionadas con los flujos de JBPM, actualmente se hace solo para acceso a datos de la base de datos de JBPM.|*modulo:* mimutual<br>|
 |**Reglas negocio**|application-component|Contiene todas las funcionalidades relacionadas con la validación de reglas usadas en otros microservicios.|*modulo:* mimutual<br>|
 |**SISPRO**|application-component|Contiene todas las funcionalidades relacionadas con la autenticación y autorización al sistema Mi mutual (Este componente se adopta a la arquitectura de microservicios de MiMutual)|*modulo:* mimutual<br>|
-=======
-|**Operación**|application-component|||
-|**Procesos negocio**|application-component|Contiene todas las funcionalidades relacionadas con los flujos de JBPM, actualmente se hace solo para acceso a datos de la base de datos de JBPM.|*modulo:* mimutual<br>|
-|**Reglas negocio**|application-component|Contiene todas las funcionalidades relacionadas con la validación de reglas usadas en otros microservicios.|*modulo:* mimutual<br>|
-|**SISPRO**|application-component|Contiene todas las funcionalidades relacionadas con la autenticación y autorización al sistema Mi mutual (Este componente se adopta a la arquitectura de microservicios de MiMutual)|*modulo:* mimutual<br>|
-|**Traductor**|application-component|||
->>>>>>> 94cc7c8dfc3570aea7a7d86d0d5aac3eabed49b4
 |**Utilidades**|application-component|Contiene todas las funcionalidades útiles y trasversales a los microservicios, como envío de correos, generación de archivos XSLX, PDF (Jasper) y consulta de parámetros.|*modulo:* mimutual<br>|
 |**app: Asociados**|application-component|Contiene todas las funcionalidades relacionadas con consulta y creación de asociados y beneficiarios.|*modulo:* mimutual<br>|
 |**app: Auditoria**|application-component|Contiene todas las funcionalidades relacionadas con el almacenamiento de la auditoria de las peticiones de la aplicación.|*modulo:* mimutual<br>|
 |**app: Cotización y Ventas**|application-component|||
 |**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
 |**app: Estados**|application-component|Administración de estados del portafolio.<br>||
-<<<<<<< HEAD
 |**app: Eureka admin**|application-component|Contiene todas las funcionalidades relacionadas con registrar y localizar microservicios existentes, informar de su localización, su estado y datos relevantes de cada uno de ellos.<br>|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
 |**app: Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.|*modulo:* mimutual<br>|
 |**app: Mi Mutual Web**|application-component|Portal de aplicaciones Mi Mutual Central. Interfaz gráfica web (HTML) de las aplicaciones de Mi Mutual.<br>||
 |**app: Protecciones**|application-component|Contiene todas las funcionalidades relacionadas con la gestión y configuración de productos y protecciones.|*modulo:* mimutual<br>|
-=======
-|**app: Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.|*modulo:* mimutual<br>|
-|**app: Mi Mutual Web**|application-component|Portal de aplicaciones Mi Mutual Central. Interfaz gráfica web (HTML) de las aplicaciones de Mi Mutual.<br>||
->>>>>>> 94cc7c8dfc3570aea7a7d86d0d5aac3eabed49b4
 |**Seguridad**|application-function|Software base. ||
 |**Configuración**|application-service|Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.<br>||
 |**Analistas**|business-role|Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes.||
@@ -368,7 +355,6 @@ Los módulos externos son las herramientas que se utilizan para complementar con
 |**Fidelización**|business-role|Ejecutivos de Fidelización||
 |**Profundización**|business-role|Ejecutivos de Profundización||
 |**Unidad de Solidaridad y Seguros**|grouping|La Unidad de Solidaridad y Seguros cuenta con un software integrado para su core de negocio denominado SIPAS (Sistema de Previsión, Asistencia y Solidaridad)||
-<<<<<<< HEAD
 
 <br>
 
@@ -389,13 +375,6 @@ Especificación y organizción de contenedores principales de Cotización y Vent
 
 <br>
 
-=======
-
-<br>
-
-## Ventas. 2. Contenedores
-![Vista. Ventas. 2. Contenedores](images/Ventas.2.Contenedores.png){#fig:Ventas.2.Contenedores width=}
->>>>>>> 94cc7c8dfc3570aea7a7d86d0d5aac3eabed49b4
 
 ### Catálogo de Elementos
 | Nombre| Tipo| Descripción| Prop.
@@ -442,15 +421,10 @@ La organización de la aplicación Cotización y Ventas, Mi Mutual, como capa de
 
 <br>
 
-<<<<<<< HEAD
 Las características de esta estructura (referida por Angular) está orientada al crecimiento (tamaño) de la aplicación, la escalabilidad y al rendimiento. La aplicación web Cotizador está diseñada (modulos) para manejar la carga por demanda del contenido.
 
 
 ### Dominio de Servicios Principales
-=======
-## Ventas. 4. Aplicación
-![Vista. Ventas. 4. Aplicación](images/Ventas.4.Aplicación.png){#fig:Ventas.4.Aplicación width=}
->>>>>>> 94cc7c8dfc3570aea7a7d86d0d5aac3eabed49b4
 
 * Asociados, contenido en el paquete app Asociados en el diagrama
 * Protecciones, contenido en el paquete app Protecciones en el diagrama
@@ -820,12 +794,7 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 <br>
 
 
-<<<<<<< HEAD
-``Generated on: Tue Dec 19 2023 12:18:13 GMT-0500 (COT)``
-=======
-``Generated on: Mon Dec 18 2023 16:20:23 GMT-0500 (COT)``
->>>>>>> 94cc7c8dfc3570aea7a7d86d0d5aac3eabed49b4
-
+``Generated on: Tue Dec 19 2023 12:27:56 GMT-0500 (COT)``
 
 # Requerimientos de Administración
 1. Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
