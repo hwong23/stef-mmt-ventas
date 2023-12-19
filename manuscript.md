@@ -5,7 +5,7 @@ keywords:
 - gobierno
 - Coomeva
 lang: en-US
-date-meta: '2023-12-18'
+date-meta: '2023-12-19'
 author-meta:
 - Equipo arquitectura STEF-COOMV.
 header-includes: |
@@ -15,11 +15,11 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.date" content="2023-12-18" />
-  <meta name="citation_publication_date" content="2023-12-18" />
-  <meta property="article:published_time" content="2023-12-18" />
-  <meta name="dc.modified" content="2023-12-18T21:23:58+00:00" />
-  <meta property="article:modified_time" content="2023-12-18T21:23:58+00:00" />
+  <meta name="dc.date" content="2023-12-19" />
+  <meta name="citation_publication_date" content="2023-12-19" />
+  <meta property="article:published_time" content="2023-12-19" />
+  <meta name="dc.modified" content="2023-12-19T17:21:09+00:00" />
+  <meta property="article:modified_time" content="2023-12-19T17:21:09+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-mmt-ventas/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-mmt-ventas/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-mmt-ventas/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-ventas/v/94cc7c8dfc3570aea7a7d86d0d5aac3eabed49b4/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-ventas/v/94cc7c8dfc3570aea7a7d86d0d5aac3eabed49b4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-ventas/v/94cc7c8dfc3570aea7a7d86d0d5aac3eabed49b4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-ventas/v/3c04070e97c921cb6eec096bfd1f8d2b3d5a79e1/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-ventas/v/3c04070e97c921cb6eec096bfd1f8d2b3d5a79e1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-ventas/v/3c04070e97c921cb6eec096bfd1f8d2b3d5a79e1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.94cc7c8 de 18 Dec 2023
+| **Versión** del producto 1.3c04070 de 19 Dec 2023
 
 | **Presentado a**
 
@@ -87,7 +87,7 @@ tablenos-caption-name: Tabla
 
 | **Fecha**
 
-| 18 Dec 2023
+| 19 Dec 2023
 
 
 <div style="page-break-before: always;"></div>
@@ -95,10 +95,10 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-mmt-ventas/v/94cc7c8dfc3570aea7a7d86d0d5aac3eabed49b4/))
+([Web](https://hwong23.github.io/stef-mmt-ventas/v/3c04070e97c921cb6eec096bfd1f8d2b3d5a79e1/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@94cc7c8](http://stefanini.sharepoint.com)
-del December 18, 2023.
+[Sharepoint STEF@3c04070](http://stefanini.sharepoint.com)
+del December 19, 2023.
 </em></small>
 
 
@@ -143,6 +143,8 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Autor          |                            |
 | Fuente         |                            |
 | **Versión**    |                            |
+| 1.3c04070 | 2023-12-19. ventasdoc--arq |
+| 1.30a4207 | 2023-12-19. ventasdoc--arq |
 | 1.94cc7c8 | 2023-12-18. ventas-doc |
 | 1.170bc7b | 2023-12-18. initdoc2 |
 | 1.4aeb7fe | 2023-12-18. sh |
@@ -151,8 +153,6 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | 1.6ca7f15 | 2023-12-18. Brand repo to hwong23/stef-mmt-ventas |
 | 1.078af3a | 2023-12-13. ai-revision docs: section mapping & prompt types |
 | 1.48c7d75 | 2023-09-27. environment: upgrade manubot |
-| 1.8c1a803 | 2023-08-14. Improve DOCX environment variable documentation |
-| 1.299abce | 2023-07-31. CI: install environment using mamba |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -334,19 +334,32 @@ Los módulos externos son las herramientas que se utilizan para complementar con
 |:--------|:--------|:--------|:--------|
 |**Flujo Trabajo: flowable**|application-component|Contiene todas las funcionalidades relacionadas con el motor de BPM Flowable, como gestión de tareas, instancias de nuevas procesos y asignación de tareas.<br>|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
 |**Integración**|application-component|Contiene todas las funcionalidades relacionadas con integraciones a otros servicios y otras bases de datos.|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
+<<<<<<< HEAD
+|**Procesos negocio**|application-component|Contiene todas las funcionalidades relacionadas con los flujos de JBPM, actualmente se hace solo para acceso a datos de la base de datos de JBPM.|*modulo:* mimutual<br>|
+|**Reglas negocio**|application-component|Contiene todas las funcionalidades relacionadas con la validación de reglas usadas en otros microservicios.|*modulo:* mimutual<br>|
+|**SISPRO**|application-component|Contiene todas las funcionalidades relacionadas con la autenticación y autorización al sistema Mi mutual (Este componente se adopta a la arquitectura de microservicios de MiMutual)|*modulo:* mimutual<br>|
+=======
 |**Operación**|application-component|||
 |**Procesos negocio**|application-component|Contiene todas las funcionalidades relacionadas con los flujos de JBPM, actualmente se hace solo para acceso a datos de la base de datos de JBPM.|*modulo:* mimutual<br>|
 |**Reglas negocio**|application-component|Contiene todas las funcionalidades relacionadas con la validación de reglas usadas en otros microservicios.|*modulo:* mimutual<br>|
 |**SISPRO**|application-component|Contiene todas las funcionalidades relacionadas con la autenticación y autorización al sistema Mi mutual (Este componente se adopta a la arquitectura de microservicios de MiMutual)|*modulo:* mimutual<br>|
 |**Traductor**|application-component|||
+>>>>>>> 94cc7c8dfc3570aea7a7d86d0d5aac3eabed49b4
 |**Utilidades**|application-component|Contiene todas las funcionalidades útiles y trasversales a los microservicios, como envío de correos, generación de archivos XSLX, PDF (Jasper) y consulta de parámetros.|*modulo:* mimutual<br>|
 |**app: Asociados**|application-component|Contiene todas las funcionalidades relacionadas con consulta y creación de asociados y beneficiarios.|*modulo:* mimutual<br>|
 |**app: Auditoria**|application-component|Contiene todas las funcionalidades relacionadas con el almacenamiento de la auditoria de las peticiones de la aplicación.|*modulo:* mimutual<br>|
 |**app: Cotización y Ventas**|application-component|||
 |**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
 |**app: Estados**|application-component|Administración de estados del portafolio.<br>||
+<<<<<<< HEAD
+|**app: Eureka admin**|application-component|Contiene todas las funcionalidades relacionadas con registrar y localizar microservicios existentes, informar de su localización, su estado y datos relevantes de cada uno de ellos.<br>|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
 |**app: Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.|*modulo:* mimutual<br>|
 |**app: Mi Mutual Web**|application-component|Portal de aplicaciones Mi Mutual Central. Interfaz gráfica web (HTML) de las aplicaciones de Mi Mutual.<br>||
+|**app: Protecciones**|application-component|Contiene todas las funcionalidades relacionadas con la gestión y configuración de productos y protecciones.|*modulo:* mimutual<br>|
+=======
+|**app: Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.|*modulo:* mimutual<br>|
+|**app: Mi Mutual Web**|application-component|Portal de aplicaciones Mi Mutual Central. Interfaz gráfica web (HTML) de las aplicaciones de Mi Mutual.<br>||
+>>>>>>> 94cc7c8dfc3570aea7a7d86d0d5aac3eabed49b4
 |**Seguridad**|application-function|Software base. ||
 |**Configuración**|application-service|Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.<br>||
 |**Analistas**|business-role|Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes.||
@@ -355,29 +368,94 @@ Los módulos externos son las herramientas que se utilizan para complementar con
 |**Fidelización**|business-role|Ejecutivos de Fidelización||
 |**Profundización**|business-role|Ejecutivos de Profundización||
 |**Unidad de Solidaridad y Seguros**|grouping|La Unidad de Solidaridad y Seguros cuenta con un software integrado para su core de negocio denominado SIPAS (Sistema de Previsión, Asistencia y Solidaridad)||
+<<<<<<< HEAD
 
 <br>
 
 ## Ventas. 2. Contenedores
 ![Vista. Ventas. 2. Contenedores](images/Ventas.2.Contenedores.png){#fig:Ventas.2.Contenedores width=}
 
+Especificación y organizción de contenedores principales de Cotización y Ventas Mi Mutual.
+
+
+### Contenedores Principales Cotización y Ventas
+
+* app: Cotización y Ventas
+* app: Configuración
+* app: Eureka admin
+* submódulo Utilidades
+* submódulo Integración
+* app: Mi Mutual Central
+
+<br>
+
+=======
+
+<br>
+
+## Ventas. 2. Contenedores
+![Vista. Ventas. 2. Contenedores](images/Ventas.2.Contenedores.png){#fig:Ventas.2.Contenedores width=}
+>>>>>>> 94cc7c8dfc3570aea7a7d86d0d5aac3eabed49b4
+
 ### Catálogo de Elementos
 | Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
-|**Repositorio Mi Mutual**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br>|*modulo:* mimutual<br>|
+|**Integración**|application-component|Contiene todas las funcionalidades relacionadas con integraciones a otros servicios y otras bases de datos.|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
+|**Utilidades**|application-component|Contiene todas las funcionalidades útiles y trasversales a los microservicios, como envío de correos, generación de archivos XSLX, PDF (Jasper) y consulta de parámetros.|*modulo:* mimutual<br>|
+|**app: Configuración**|application-component|Contiene todas las funcionalidades útiles y trasversales a los microservicios, como envío de correos, generación de archivos XSLX, PDF (Jasper) y consulta de parámetros.|*modulo:* mimutual<br>|
+|**app: Cotización y Ventas**|application-component|||
 |**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
-|**Control**|application-function|||
-|**Ruteos**|application-function|||
-|**Servicios**|application-function|||
-|**API Mi Mutual**|application-interface||*modulo:* mimutual<br>|
-|**Cliente HTTP / HTTPS**|application-interface|||
+|**app: Eureka admin**|application-component|Contiene todas las funcionalidades relacionadas con registrar y localizar microservicios existentes, informar de su localización, su estado y datos relevantes de cada uno de ellos.<br>|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
+|**app: Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.|*modulo:* mimutual<br>|
+|**app: Mi Mutual Web**|application-component|Portal de aplicaciones Mi Mutual Central. Interfaz gráfica web (HTML) de las aplicaciones de Mi Mutual.<br>||
+|**config**|application-function|||
+|**config**|application-function|||
+|**config**|application-function|||
+|**controller**|application-function|||
+|**controller**|application-function|||
+|**cotizacion service**|application-function|||
+|**cotizacion utils**|application-function|||
+|**cotizacion v2**|application-function|||
+|**datos (dto)**|application-function|||
+|**datos (dto)**|application-function|||
+|**environment**|application-function|||
+|**eureka**|application-function|||
+|**integraciones**|application-function|||
+|**service impl**|application-function|||
+|**service impl**|application-function|||
+|**ventas service**|application-function|||
 
 <br>
 
 ## Ventas. 4. Aplicación
 ![Vista. Ventas. 4. Aplicación](images/Ventas.4.Aplicación.png){#fig:Ventas.4.Aplicación width=}
 
-La organización de la aplicación Cotizador Web Mi Mutual, como capa de presentación y servicios, plantea una estructura basada en la referencia de aplicaciones Angular 12. Las características de esta estructura (referida por Angular) está orientada al crecimiento (tamaño) de la aplicación, la escalabilidad y al rendimiento. La aplicación web Cotizador está diseñada (modulos) para manejar la carga por demanda del contenido.
+La organización de la aplicación Cotización y Ventas, Mi Mutual, como capa de presentación y servicios, está planteada como una estructura basada en la referencia de aplicaciones Angular 12:
+
+### Organización y Segmentos de la Aplicación Mi Mutual
+
+1. Frontal / interfaz web
+1. Servicios/ API
+1. Central / modelo de negocio
+1. Registros / modelo de datos y persistencia
+1. Infraestructura
+
+<br>
+
+<<<<<<< HEAD
+Las características de esta estructura (referida por Angular) está orientada al crecimiento (tamaño) de la aplicación, la escalabilidad y al rendimiento. La aplicación web Cotizador está diseñada (modulos) para manejar la carga por demanda del contenido.
+
+
+### Dominio de Servicios Principales
+=======
+## Ventas. 4. Aplicación
+![Vista. Ventas. 4. Aplicación](images/Ventas.4.Aplicación.png){#fig:Ventas.4.Aplicación width=}
+>>>>>>> 94cc7c8dfc3570aea7a7d86d0d5aac3eabed49b4
+
+* Asociados, contenido en el paquete app Asociados en el diagrama
+* Protecciones, contenido en el paquete app Protecciones en el diagrama
+
+<br>
 
 
 ### Catálogo de Elementos
@@ -397,25 +475,31 @@ La organización de la aplicación Cotizador Web Mi Mutual, como capa de present
 |**MOD0.quill**|application-component|Ccomponente para editor html Documentación: https://quilljs.com/||
 |**MOD0.sweetalert2**|application-component|Manejo de alertas de mensajes. Documentación: https://sweetalert2.github.io/||
 |**Repositorio Mi Mutual**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br>|*modulo:* mimutual<br>|
-|**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
+|**app: Asociados**|application-component|Contiene todas las funcionalidades relacionadas con consulta y creación de asociados y beneficiarios.|*modulo:* mimutual<br>|
 |**app: Implementación de Servicios**|application-component|Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br>|*modulo:* mimutual<br>|
 |**app: Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.|*modulo:* mimutual<br>|
-|**Interfaz transporte**|application-interface|Feign Client.<br>Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.||
-|**Administración**|application-service|Servicios de aplicación central que el Cotizador Web usa. Administración.<br>||
+|**app: Protecciones**|application-component|Contiene todas las funcionalidades relacionadas con la gestión y configuración de productos y protecciones.|*modulo:* mimutual<br>|
+|**Interfaz integración**|application-interface|Feign Client.<br>Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.||
+|**APSRVC. MimAseguradoController**|application-service|Servicios del contexto de Asociados, de Cotización y Ventas, Mi Mutual.||
+|**APSRVC. MimCanalController**|application-service|Servicios del contexto de Protecciones, de Cotización y Ventas, Mi Mutual.||
+|**APSRVC. MimClienteController**|application-service|Servicios del contexto de Protecciones, de Cotización y Ventas, Mi Mutual.||
+|**APSRVC. MimEstadoCotizacionController**|application-service|Servicios del contexto de Asociados, de Cotización y Ventas, Mi Mutual.||
+|**APSRVC. MimEstadoVentaController**|application-service|Servicios del contexto de Asociados, de Cotización y Ventas, Mi Mutual.||
+|**APSRVC. MimFondoController**|application-service|Servicios del contexto de Protecciones, de Cotización y Ventas, Mi Mutual.||
+|**APSRVC. MimPersonaController**|application-service|Servicios del contexto de Asociados, de Cotización y Ventas, Mi Mutual.||
+|**APSRVC. MimPlanCoberturasController**|application-service|Servicios del contexto de Protecciones, de Cotización y Ventas, Mi Mutual.||
+|**APSRVC. MimPlanController**|application-service|Servicios del contexto de Protecciones, de Cotización y Ventas, Mi Mutual.||
+|**APSRVC. MimTipoMovimientoController**|application-service|Servicios del contexto de Protecciones, de Cotización y Ventas, Mi Mutual.||
+|**APSRVC. MimTipoPlan**|application-service|Servicios del contexto de Protecciones, de Cotización y Ventas, Mi Mutual.||
+|**APSRVC. MimVentaController**|application-service|Servicios del contexto de Asociados, de Cotización y Ventas, Mi Mutual.||
+|**APSRVC. SipBeneficiariosController**|application-service|Servicios del contexto de Asociados, de Cotización y Ventas, Mi Mutual.||
+|**APSRVC. SipProteccionesController**|application-service|Servicios del contexto de Asociados, de Cotización y Ventas, Mi Mutual.||
 |**Application Service**|application-service|Otros servicios del contexto de Mi Mutual Central.<br>||
-|**Cliente**|application-service|Servicios de aplicación central que el Cotizador Web usa. Operaciones sobre Clientes.<br>||
-|**Configuración**|application-service|Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.<br>||
-|**Gestión de Productos**|application-service|Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas: * Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias. * Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado.<br>||
-|**Gestión de Usuarios**|application-service|Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.<br>||
-|**Multiactiva**|application-service|Servicios de aplicación central que el Cotizador Web usa. Multiactiva.<br>||
-|**SS02.protecciones - mim - actuaria**|application-service|Servicios de aplicación central que el Cotizador Web usa. Protección.||
-|**SS02.protecciones- desmemebracion - accidente**|application-service|Servicios de aplicación central que el Cotizador Web usa. Protección.||
-|**SS02.reporte - cotizacion**|application-service|Servicios de aplicación central que el Cotizador Web usa. Reportes.||
-|**SS02.reporte - estado - cotizacion**|application-service|Servicios de aplicación central que el Cotizador Web usa. Cotización.<br>||
-|**Simuladores**|application-service|Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado.<br>||
 |**Analistas**|business-role|Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes.||
 |**Asesores**|business-role|Asesores integrales||
 |**Auxiliares servicio**|business-role|Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes.||
+|**Fidelización**|business-role|Ejecutivos de Fidelización||
+|**Profundización**|business-role|Ejecutivos de Profundización||
 |**Módulos Externos**|grouping|||
 |**Unidad de Solidaridad y Seguros**|grouping|La Unidad de Solidaridad y Seguros cuenta con un software integrado para su core de negocio denominado SIPAS (Sistema de Previsión, Asistencia y Solidaridad)||
 |**Servicio de Almacenamiento de Datos**|technology-service|||
@@ -439,7 +523,7 @@ Composición interna de los servivios de Mi Mutual Central, Mi Mutual Web, Cotiz
 |**Interfaz datos**|application-component|Acceso a datos del modelo del contexto de Mi Mutual Central.<br>||
 |**Operación**|application-component|||
 |**Servicio**|application-component|Exposición de componentes de negocio.<br>||
-|**Interfaz transporte**|application-interface|Feign Client.<br>Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.||
+|**Interfaz integración**|application-interface|Feign Client.<br>Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.||
 |**Application Service**|application-service|Otros servicios del contexto de Mi Mutual Central.<br>||
 |**Gestión de Productos**|application-service|Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas: * Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias. * Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado.<br>||
 |**Integración**|application-service|||
@@ -736,7 +820,12 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 <br>
 
 
+<<<<<<< HEAD
+``Generated on: Tue Dec 19 2023 12:18:13 GMT-0500 (COT)``
+=======
 ``Generated on: Mon Dec 18 2023 16:20:23 GMT-0500 (COT)``
+>>>>>>> 94cc7c8dfc3570aea7a7d86d0d5aac3eabed49b4
+
 
 # Requerimientos de Administración
 1. Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
