@@ -5,7 +5,7 @@ keywords:
 - gobierno
 - Coomeva
 lang: en-US
-date-meta: '2023-12-20'
+date-meta: '2024-01-09'
 author-meta:
 - Equipo arquitectura STEF-COOMV.
 header-includes: |
@@ -15,11 +15,11 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.date" content="2023-12-20" />
-  <meta name="citation_publication_date" content="2023-12-20" />
-  <meta property="article:published_time" content="2023-12-20" />
-  <meta name="dc.modified" content="2023-12-20T04:42:47+00:00" />
-  <meta property="article:modified_time" content="2023-12-20T04:42:47+00:00" />
+  <meta name="dc.date" content="2024-01-09" />
+  <meta name="citation_publication_date" content="2024-01-09" />
+  <meta property="article:published_time" content="2024-01-09" />
+  <meta name="dc.modified" content="2024-01-09T23:04:47+00:00" />
+  <meta property="article:modified_time" content="2024-01-09T23:04:47+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-mmt-ventas/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-mmt-ventas/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-mmt-ventas/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-ventas/v/10f522264e22dd5b23eace1dbb3816d95682ca11/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-ventas/v/10f522264e22dd5b23eace1dbb3816d95682ca11/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-ventas/v/10f522264e22dd5b23eace1dbb3816d95682ca11/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-ventas/v/42dfb576c1d9c6c565c3decced537e06ac32155a/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-ventas/v/42dfb576c1d9c6c565c3decced537e06ac32155a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-ventas/v/42dfb576c1d9c6c565c3decced537e06ac32155a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.10f5222 de 20 Dec 2023
+| **Versión** del producto 1.42dfb57 de 09 Jan 2024
 
 | **Presentado a**
 
@@ -87,7 +87,7 @@ tablenos-caption-name: Tabla
 
 | **Fecha**
 
-| 20 Dec 2023
+| 09 Jan 2024
 
 
 <div style="page-break-before: always;"></div>
@@ -95,10 +95,10 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-mmt-ventas/v/10f522264e22dd5b23eace1dbb3816d95682ca11/))
+([Web](https://hwong23.github.io/stef-mmt-ventas/v/42dfb576c1d9c6c565c3decced537e06ac32155a/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@10f5222](http://stefanini.sharepoint.com)
-del December 20, 2023.
+[Sharepoint STEF@42dfb57](http://stefanini.sharepoint.com)
+del January 9, 2024.
 </em></small>
 
 
@@ -143,6 +143,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Autor          |                            |
 | Fuente         |                            |
 | **Versión**    |                            |
+| 1.42dfb57 | 2024-01-09. operaciones-doc |
 | 1.10f5222 | 2023-12-19. ventasdoc--4 |
 | 1.1da7590 | 2023-12-19. ventasdoc--titulos |
 | 1.a7b134a | 2023-12-19. build |
@@ -152,7 +153,6 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | 1.170bc7b | 2023-12-18. initdoc2 |
 | 1.4aeb7fe | 2023-12-18. sh |
 | 1.56998c5 | 2023-12-18. initdoc |
-| 1.dd52569 | 2023-12-18. init2 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
