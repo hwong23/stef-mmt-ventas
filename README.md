@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/hwong23/stef-mmt-ventas/tree/gh-pages) branch hosts the contents of this directory at <https://hwong23.github.io/stef-mmt-ventas/>.
-The permalink for this webpage version is <https://hwong23.github.io/stef-mmt-ventas/v/10f522264e22dd5b23eace1dbb3816d95682ca11/>.
+The permalink for this webpage version is <https://hwong23.github.io/stef-mmt-ventas/v/42dfb576c1d9c6c565c3decced537e06ac32155a/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://hwong23.github.io/stef-mmt-ventas/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`10f522264e22dd5b23eace1dbb3816d95682ca11`](https://github.com/hwong23/stef-mmt-ventas/commit/10f522264e22dd5b23eace1dbb3816d95682ca11).
+[`42dfb576c1d9c6c565c3decced537e06ac32155a`](https://github.com/hwong23/stef-mmt-ventas/commit/42dfb576c1d9c6c565c3decced537e06ac32155a).
